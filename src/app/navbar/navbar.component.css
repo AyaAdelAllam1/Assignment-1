@@ -1,9 +1,14 @@
-nav {
-    height: 8rem;
-    transition: height 0.3s ease-in-out;
-    background-color: #2b3d4fff !important;
-    z-index: 999999;
-  }
+.navbar {
+  padding: 3rem 3rem !important;
+  transition:padding 1s;
+  background-color: #2b3d4fff !important;
+  z-index: 999999;
+}
+
+.navbar.scrolled {
+  /* background-color: #222 !important; */
+  padding: 1rem 3rem !important; /* تقليل البادينج بدلاً من تغيير الـ height */
+}
   :root{
       --bs-white: #fff;
   }
@@ -15,10 +20,10 @@ nav {
       transition: all 0.3s ease-in-out;
     padding: 20px 0;
   }
-  .navbar.scrolled {
+  /* .navbar.scrolled {
       height: 4rem; 
       background-color: #222;
-    }
+    } */
     .activeLink{
       background-color: #1abd9cff;
       padding: 7px;

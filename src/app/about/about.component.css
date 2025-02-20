@@ -1,5 +1,5 @@
 section{
-    height: 90vh;
+    padding: 7rem 0 6rem 0;
     background-color: #1abd9cff;
     padding-top: 3rem;
     margin-top: 1rem;
@@ -9,3 +9,4 @@ section{
     height: 0.2rem;
     background-color: #ffffff;
 }
+
